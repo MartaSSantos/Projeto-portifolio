@@ -1,0 +1,32 @@
+.menuContainer{
+    display: flex;
+    background-color: #fff;
+    gap: 10rem;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.menuItem {
+    list-style: none;
+    
+}
+
+.menuLink {
+    text-decoration: none;
+    color: #005f6b;
+    font-size: 1.5rem;
+}
+
+.menuLink:hover{
+border-bottom: 5px double #005f6b;
+color: #4dbce9;
+}
+
+@media(max-width: 765px) {
+    .menuContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
