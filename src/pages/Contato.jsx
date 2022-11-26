@@ -1,7 +1,7 @@
 import styles from '../styles/components/contato.module.css'
 import { useState } from 'react'
 import { Header } from "../components/Header";
-import imgConta from '../assets/imgcOnta.png'
+import imgConta from '../assets/imgConta.png'
 export function Contato() {
     const [nome, setNome] = useState('')
     const [email, setEmail] = useState('')
